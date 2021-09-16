@@ -13,9 +13,9 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config',
-    '@diritto/eslint-config/react/typescript',
-    '@diritto/eslint-config/prettier'
+    "@diritto/eslint-config",
+    "@diritto/eslint-config/react/typescript",
+    "@diritto/eslint-config/prettier"
   ]
   ...
 ```
@@ -24,8 +24,8 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config',
-    '@diritto/eslint-config/typescript'
+    "@diritto/eslint-config",
+    "@diritto/eslint-config/typescript"
   ]
   ...
 ```
@@ -36,7 +36,7 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config'
+    "@diritto/eslint-config"
   ],
   ...
 ```
@@ -45,8 +45,8 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config',
-    '@diritto/eslint-config/typescript'
+    "@diritto/eslint-config",
+    "@diritto/eslint-config/typescript"
   ],
   ...
 ```
@@ -55,8 +55,8 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config',
-    '@diritto/eslint-config/react'
+    "@diritto/eslint-config",
+    "@diritto/eslint-config/react"
   ],
   ...
 ```
@@ -65,8 +65,8 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config',
-    '@diritto/eslint-config/react/typescript'
+    "@diritto/eslint-config",
+    "@diritto/eslint-config/react/typescript"
   ],
   ...
 ```
@@ -75,8 +75,8 @@ or
 ```js
   ...
   extends: [
-    '@diritto/eslint-config',
-    '@diritto/eslint-config/prettier'
+    "@diritto/eslint-config",
+    "@diritto/eslint-config/prettier"
   ]
   ...
 ```
