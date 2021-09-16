@@ -1,0 +1,27 @@
+{
+  "name": "@diritto/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "react",
+    "index.js",
+    "typescript.js",
+    "prettier.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "prettier": "^2.4.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
