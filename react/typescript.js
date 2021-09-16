@@ -6,9 +6,13 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   extends: [
-    'airbnb-typescript',
+    'airbnb',
     'airbnb/hooks',
+    'airbnb-typescript',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  rules: {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+  }
 };
