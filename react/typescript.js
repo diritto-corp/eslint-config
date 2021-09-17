@@ -9,10 +9,5 @@ module.exports = {
     ...react.extends,
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
-  ],
-  rules: {
-    ...react.rules,
-    ...typescript.rules,
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-  }
+  ]
 };
