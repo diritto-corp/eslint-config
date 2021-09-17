@@ -9,4 +9,7 @@ module.exports = {
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
   ],
+  rules: {
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+  }
 };
