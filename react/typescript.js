@@ -13,5 +13,9 @@ module.exports = {
   rules: {
     ...react.rules,
     ...typescript.rules,
+    // Typescript 라서 default props 부분 해소 가능
+    'react/require-default-props': 'off',
+    // Typescript 라서 propTypes 해소 가능
+    'react/prop-types': 'off',
   }
 };
