@@ -25,7 +25,8 @@ or
   ...
   extends: [
     "@diritto/eslint-config",
-    "@diritto/eslint-config/typescript"
+    "@diritto/eslint-config/typescript",
+    "@diritto/eslint-config/prettier"
   ]
   ...
 ```
