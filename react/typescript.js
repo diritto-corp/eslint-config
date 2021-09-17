@@ -1,18 +1,19 @@
+const basic = require('./index.js');
+
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
     sourceType: 'module'
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: [...basic.plugins, '@typescript-eslint'],
   extends: [
-    'airbnb',
-    'airbnb/hooks',
+    ...basic.extends,
     'airbnb-typescript',
-    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+    ...basic.rules,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
   }
 };
