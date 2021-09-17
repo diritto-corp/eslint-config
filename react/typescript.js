@@ -1,5 +1,5 @@
 const react = require('./index.js');
-const typescript = require('../typescript');
+const typescript = require('../typescript.js');
 
 module.exports = {
   parser: typescript.parser,
@@ -9,5 +9,9 @@ module.exports = {
     ...react.extends,
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
-  ]
+  ],
+  rules: {
+    ...react.rules,
+    ...typescript.rules,
+  }
 };
