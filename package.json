@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./",
-    "prepace": "husky install"
+    "lint": "eslint ./ --fix"
   },
   "files": [
     "react",
