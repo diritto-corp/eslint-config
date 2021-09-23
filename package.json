@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "husky install",
-    "lint": "eslint ./",
-    "lint-fix": "eslint ./ --fix"
+    "lint-check": "eslint ./",
+    "lint": "eslint ./ --fix"
   },
   "lint-staged": {
     "*.js": [
-       "yarn lint-fix"
+       "yarn lint"
     ]
   },
   "files": [
