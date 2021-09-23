@@ -7,11 +7,6 @@
     "lint": "eslint ./",
     "lint-fix": "eslint ./ --fix"
   },
-  "husky": {
-    "hooks": {
-       "pre-commit": "lint-staged --no-stash"
-    }
-  },
   "lint-staged": {
     "*.js": [
        "yarn lint-fix"
