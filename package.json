@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "lint-check": "eslint ./",
     "lint": "eslint ./ --fix"
   },
