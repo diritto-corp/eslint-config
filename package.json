@@ -3,8 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./ --fix",
-    "prepare": "husky install"
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix"
+  },
+  "husky": {
+    "hooks": {
+       "pre-commit": "lint-staged --no-stash"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+       "yarn lint-fix"
+    ]
   },
   "files": [
     "react",
@@ -29,7 +39,8 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "husky": "^7.0.2"
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2"
   },
   "peerDependencies": {
     "eslint": "^7.32.0"
