@@ -1,11 +1,16 @@
 # @diritto/eslint-config
 
-## Installation
-> yarn add eslint @diritto/eslint-config --dev
+Installation
+> ~~yarn add eslint @diritto/eslint-config --dev~~
 
 or
 
-> npm install eslint @diritto/eslint-config --save-dev
+> ~~npm install eslint @diritto/eslint-config --save-dev~~
+
+현재는 npm 에 업로드 되어있지 않기 때문에 npm 설치 방식으로는 사용하지 않음
+
+> yarn add https://github.com/diritto-corp/eslint-config.git --dev
+
 
 ## Recommends
 
