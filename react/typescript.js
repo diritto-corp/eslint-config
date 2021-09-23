@@ -1,5 +1,5 @@
-const react = require('./index.js');
-const typescript = require('../typescript.js');
+const react = require('./index');
+const typescript = require('../typescript');
 
 module.exports = {
   parser: typescript.parser,
@@ -17,5 +17,5 @@ module.exports = {
     'react/require-default-props': 'off',
     // Typescript 라서 propTypes 해소 가능
     'react/prop-types': 'off',
-  }
+  },
 };

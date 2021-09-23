@@ -2,6 +2,9 @@
   "name": "@diritto/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
   "files": [
     "react",
     "index.js",
@@ -22,6 +25,9 @@
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   },
   "peerDependencies": {
     "eslint": "^7.32.0"
