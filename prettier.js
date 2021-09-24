@@ -3,4 +3,7 @@ module.exports = {
   extends: [
     'plugin:prettier/recommended',
   ],
+  rules: {
+    'arrow-body-style': 'error',
+  },
 };

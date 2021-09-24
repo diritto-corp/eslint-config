@@ -15,7 +15,8 @@
     "react",
     "index.js",
     "typescript.js",
-    "prettier.js"
+    "prettier.js",
+    "prettier-config.js"
   ],
   "license": "MIT",
   "dependencies": {
