@@ -16,7 +16,8 @@
     "index.js",
     "typescript.js",
     "prettier.js",
-    "prettier-config.js"
+    "prettier-config.js",
+    "tsconfig.json"
   ],
   "license": "MIT",
   "dependencies": {
