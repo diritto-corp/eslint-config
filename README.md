@@ -88,14 +88,14 @@ or
 ```
 
 ## Prettier extends
-```json
+```js
 // .prettierrc
 "@diritto/eslint-config/prettier-config"
 ```
 
 ## TSConfig extends
 ### TypeScript
-```json
+```js
 // tsconfig.json
 {
   "extends": "@diritto/eslint-config/tsconfig.json",
@@ -106,7 +106,7 @@ or
 ```
 
 ### React with TypeScript
-```json
+```js
 // tsconfig.json
 {
   "extends": "@diritto/eslint-config/react/tsconfig.json",
