@@ -36,7 +36,7 @@ or
   ...
 ```
 
-## Modules
+## ESLint extends
 
 ### JavaScript
 ```js
@@ -85,4 +85,33 @@ or
     "@diritto/eslint-config/prettier"
   ]
   ...
+```
+
+## Prettier extends
+```json
+// .prettierrc
+"@diritto/eslint-config/prettier-config"
+```
+
+## TSConfig extends
+### TypeScript
+```json
+// tsconfig.json
+{
+  "extends": "@diritto/eslint-config/tsconfig.json",
+  "compilerOptions": {    
+    ...
+  },
+}
+```
+
+### React with TypeScript
+```json
+// tsconfig.json
+{
+  "extends": "@diritto/eslint-config/react/tsconfig.json",
+  "compilerOptions": {    
+    ...
+  },
+}
 ```
