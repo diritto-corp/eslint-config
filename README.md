@@ -1,6 +1,11 @@
-# @diritto/eslint-config
+# Development
+```sh
+$ yarn install
+$ yarn install-husky
+```
 
-Installation
+# Installation
+
 > ~~yarn add eslint @diritto/eslint-config --dev~~
 
 or
