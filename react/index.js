@@ -20,5 +20,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     // spread props 허용
     'react/jsx-props-no-spreading': 'off',
+    // React 함수 컴포넌트 허용
+    'react/function-component-definition': 'off',
   },
 };
