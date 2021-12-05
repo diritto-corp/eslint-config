@@ -45,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/diritto-corp/eslint-config.git"
+    "url": "https://github.com/diritto-corp/eslint-config.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/diritto-corp"
+    "registry": "https://npm.pkg.github.com/diritto-corp/eslint-config"
   }
 }
