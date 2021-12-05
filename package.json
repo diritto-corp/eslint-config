@@ -1,5 +1,5 @@
 {
-  "name": "@diritto/eslint-config",
+  "name": "@diritto-corp/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -43,11 +43,8 @@
   "peerDependencies": {
     "eslint": "^7.32.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/diritto-corp/eslint-config.git"
-  },
+  "repository": "git://github.com/diritto-corp/eslint-config.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/diritto-corp/eslint-config"
+    "registry": "https://npm.pkg.github.com"
   }
 }
