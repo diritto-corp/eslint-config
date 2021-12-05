@@ -3,6 +3,11 @@
 
 name: Node.js Package
 
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   publish-gpr:
     runs-on: ubuntu-latest
