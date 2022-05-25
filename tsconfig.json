@@ -8,5 +8,6 @@
     "noUnusedLocals": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
-  },
+    "skipLibCheck": true
+  }
 }
