@@ -13,5 +13,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     // if 문 한줄에서도 {} 사용하도록 설정
     curly: ['error', 'all'],
+    // 디버깅시 불편하기 떄문에 off 한다.
+    'no-return-await': 'off',
   },
 };
