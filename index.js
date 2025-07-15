@@ -15,6 +15,6 @@ module.exports = {
     curly: ['error', 'all'],
     // 디버깅시 불편하기 떄문에 off 한다.
     'no-return-await': 'off',
-    "@typescript-eslint/return-await": "off"
+    '@typescript-eslint/return-await': 'off',
   },
 };
